@@ -1,16 +1,34 @@
-# test_app
+# Flutter Calculator and First Page App
 
-A new Flutter project.
+## Overview
+This Flutter project consists of two main components: a `Calculator` and a `First Page` interface. The `Calculator` is a simple yet powerful tool for performing basic arithmetic operations, while the `First Page` serves as an introductory screen for the app.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+### Calculator
+- Supports basic arithmetic operations: addition, subtraction, multiplication, division, and modulo.
+- User-friendly interface with clear and responsive buttons.
+- Error handling for scenarios like division by zero.
 
-A few resources to get you started if this is your first Flutter project:
+### First Page
+- Welcoming screen with navigational elements.
+- Provides a seamless transition to the Calculator component.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## App UI
+![App UI](https://github.com/18leaf/flutter_calculator_test_app/blob/main/CalculatorTestApp.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+To run this Flutter project on your local machine, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Open the project in your preferred Flutter IDE (e.g., Android Studio, VS Code).
+3. Ensure you have Flutter installed and set up on your machine. If not, follow the [Flutter installation guide](https://flutter.dev/docs/get-started/install).
+4. Run `flutter pub get` in the project directory to fetch the necessary dependencies.
+5. Launch an emulator or connect a physical device.
+6. Run the app using `flutter run` command.
+
+## Contributing
+Contributions to the project are welcome. Please follow the standard fork-and-pull request workflow.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
